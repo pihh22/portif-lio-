@@ -1,0 +1,19 @@
+/* Estilos personalizados e animações */
+html {
+    scroll-behavior: smooth; /* Torna a rolagem do menu suave */
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+    color: white;
+}
+
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
